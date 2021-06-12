@@ -13,7 +13,7 @@
 <tr>
 <th> Matrícula: </th>
  <th> Nome completo: </th>
-<th>  Semestre Que ingressou: </th>
+<th>  Semestre que ingressou: </th>
 <th>  Github:</th>
 </tr>
 <td>1290482013015</td>
