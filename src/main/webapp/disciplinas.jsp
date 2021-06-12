@@ -78,8 +78,14 @@
                     <td><%= d.getDiaSemana() %></td>
                      <td><%= d.getHorario() %></td>
                      <td><%= d.getAulas() %></td>
+                     <%if (d.getP1()!= null) { %>
                       <td><%= d.getP1() %></td>
                        <td><%= d.getP2() %></td>
+                       <%} else { %>
+                    	   <td></td>
+                    	      <td></td>
+                       <%}  %>
+                     
                     <td>
                         <form method="post">
                         	
